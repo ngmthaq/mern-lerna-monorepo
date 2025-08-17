@@ -1,0 +1,216 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "package.json",
+        "hash": "12482515874705884974"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "9755779682288392291"
+      }
+    ],
+    "projectFileMap": {
+      "nest-app": [
+        {
+          "file": "packages/nest-app/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "packages/nest-app/.prettierrc",
+          "hash": "4808572120966128913"
+        },
+        {
+          "file": "packages/nest-app/README.md",
+          "hash": "11390162027408579570"
+        },
+        {
+          "file": "packages/nest-app/eslint.config.mjs",
+          "hash": "341460240617997069"
+        },
+        {
+          "file": "packages/nest-app/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "packages/nest-app/package.json",
+          "hash": "16161638939474135474",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:eslint",
+            "npm:globals",
+            "npm:tsconfig-paths",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "packages/nest-app/src/app.controller.spec.ts",
+          "hash": "2727664763654384995"
+        },
+        {
+          "file": "packages/nest-app/src/app.controller.ts",
+          "hash": "4552329938751326480"
+        },
+        {
+          "file": "packages/nest-app/src/app.module.ts",
+          "hash": "11673476679848632172"
+        },
+        {
+          "file": "packages/nest-app/src/app.service.ts",
+          "hash": "16892833931858030153"
+        },
+        {
+          "file": "packages/nest-app/src/main.ts",
+          "hash": "6783086878492621953"
+        },
+        {
+          "file": "packages/nest-app/test/app.e2e-spec.ts",
+          "hash": "7164584812487523395"
+        },
+        {
+          "file": "packages/nest-app/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "packages/nest-app/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "packages/nest-app/tsconfig.json",
+          "hash": "13757859475919901779"
+        }
+      ],
+      "react-app": [
+        {
+          "file": "packages/react-app/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "packages/react-app/README.md",
+          "hash": "230519711145761115"
+        },
+        {
+          "file": "packages/react-app/eslint.config.js",
+          "hash": "142212017292357276"
+        },
+        {
+          "file": "packages/react-app/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "packages/react-app/package.json",
+          "hash": "7066895334314593957",
+          "deps": [
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react-app/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "packages/react-app/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "packages/react-app/src/App.tsx",
+          "hash": "9561001225065465909"
+        },
+        {
+          "file": "packages/react-app/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "packages/react-app/src/index.css",
+          "hash": "13504153635654440336"
+        },
+        {
+          "file": "packages/react-app/src/main.tsx",
+          "hash": "11038211546439381838"
+        },
+        {
+          "file": "packages/react-app/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "packages/react-app/tsconfig.app.json",
+          "hash": "17915403376949929233"
+        },
+        {
+          "file": "packages/react-app/tsconfig.json",
+          "hash": "2365188958523842680"
+        },
+        {
+          "file": "packages/react-app/tsconfig.node.json",
+          "hash": "12526670948656573966"
+        },
+        {
+          "file": "packages/react-app/vite.config.ts",
+          "hash": "6663526515856700769"
+        }
+      ],
+      "express-app": [
+        {
+          "file": "packages/express-app/app.js",
+          "hash": "7140470404141217634"
+        },
+        {
+          "file": "packages/express-app/bin/www",
+          "hash": "13315582552387293696"
+        },
+        {
+          "file": "packages/express-app/package.json",
+          "hash": "9064064873216657237",
+          "deps": [
+            "npm:debug",
+            "npm:express",
+            "npm:http-errors"
+          ]
+        },
+        {
+          "file": "packages/express-app/public/stylesheets/style.css",
+          "hash": "16008176012491926198"
+        },
+        {
+          "file": "packages/express-app/routes/index.js",
+          "hash": "3690739613766628491"
+        },
+        {
+          "file": "packages/express-app/routes/users.js",
+          "hash": "4398956935025720757"
+        },
+        {
+          "file": "packages/express-app/views/error.jade",
+          "hash": "15797831673803591312"
+        },
+        {
+          "file": "packages/express-app/views/index.jade",
+          "hash": "10579950992995214212"
+        },
+        {
+          "file": "packages/express-app/views/layout.jade",
+          "hash": "16866781601313126645"
+        }
+      ]
+    }
+  }
+}
