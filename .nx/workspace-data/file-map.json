@@ -5,90 +5,6 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "nest-app": [
-        {
-          "file": "packages/nest-app/.gitignore",
-          "hash": "12634402967133909834"
-        },
-        {
-          "file": "packages/nest-app/.prettierrc",
-          "hash": "9555875142989992828"
-        },
-        {
-          "file": "packages/nest-app/README.md",
-          "hash": "11390162027408579570"
-        },
-        {
-          "file": "packages/nest-app/eslint.config.mjs",
-          "hash": "8633572574851064604"
-        },
-        {
-          "file": "packages/nest-app/nest-cli.json",
-          "hash": "789240945379598733"
-        },
-        {
-          "file": "packages/nest-app/package.json",
-          "hash": "5580626152671014095",
-          "deps": [
-            "npm:@eslint/eslintrc",
-            "npm:@eslint/js",
-            "npm:@nestjs/cli",
-            "npm:@nestjs/schematics",
-            "npm:@nestjs/testing",
-            "npm:@types/express",
-            "npm:@types/jest",
-            "npm:@types/node@22.17.2",
-            "npm:@types/supertest",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-prettier",
-            "npm:globals",
-            "npm:jest",
-            "npm:prettier",
-            "npm:source-map-support",
-            "npm:supertest",
-            "npm:ts-jest",
-            "npm:ts-loader",
-            "npm:ts-node",
-            "npm:tsconfig-paths",
-            "npm:typescript",
-            "npm:typescript-eslint",
-            "npm:@nestjs/common",
-            "npm:@nestjs/core",
-            "npm:@nestjs/platform-express",
-            "npm:reflect-metadata",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "packages/nest-app/src/app.controller.ts",
-          "hash": "4552329938751326480"
-        },
-        {
-          "file": "packages/nest-app/src/app.module.ts",
-          "hash": "11673476679848632172"
-        },
-        {
-          "file": "packages/nest-app/src/app.service.ts",
-          "hash": "16892833931858030153"
-        },
-        {
-          "file": "packages/nest-app/src/main.ts",
-          "hash": "6783086878492621953"
-        },
-        {
-          "file": "packages/nest-app/test/jest-e2e.json",
-          "hash": "7570273541430074424"
-        },
-        {
-          "file": "packages/nest-app/tsconfig.build.json",
-          "hash": "276845246908739715"
-        },
-        {
-          "file": "packages/nest-app/tsconfig.json",
-          "hash": "4581096646024959595"
-        }
-      ],
       "react-app": [
         {
           "file": "packages/react-app/.gitignore",
@@ -176,6 +92,91 @@
         {
           "file": "packages/react-app/vite.config.ts",
           "hash": "7059562795370333365"
+        }
+      ],
+      "nest-app": [
+        {
+          "file": "packages/nest-app/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "packages/nest-app/.prettierrc",
+          "hash": "9555875142989992828"
+        },
+        {
+          "file": "packages/nest-app/README.md",
+          "hash": "11390162027408579570"
+        },
+        {
+          "file": "packages/nest-app/eslint.config.mjs",
+          "hash": "8633572574851064604"
+        },
+        {
+          "file": "packages/nest-app/nest-cli.json",
+          "hash": "789240945379598733"
+        },
+        {
+          "file": "packages/nest-app/package.json",
+          "hash": "5580626152671014095",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node@22.17.2",
+            "npm:@types/supertest",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-prettier",
+            "npm:globals",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "packages/nest-app/src/app.controller.ts",
+          "hash": "4552329938751326480"
+        },
+        {
+          "file": "packages/nest-app/src/app.module.ts",
+          "hash": "11673476679848632172"
+        },
+        {
+          "file": "packages/nest-app/src/app.service.ts",
+          "hash": "16892833931858030153"
+        },
+        {
+          "file": "packages/nest-app/src/main.ts",
+          "hash": "6783086878492621953"
+        },
+        {
+          "file": "packages/nest-app/test/jest-e2e.json",
+          "hash": "7570273541430074424"
+        },
+        {
+          "file": "packages/nest-app/tsconfig.build.json",
+          "hash": "276845246908739715"
+        },
+        {
+          "file": "packages/nest-app/tsconfig.json",
+          "hash": "4581096646024959595"
         }
       ]
     },

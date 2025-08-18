@@ -17998,16 +17998,6 @@
       "type": "static"
     },
     {
-      "source": "npm:eslint-plugin-prettier",
-      "target": "npm:prettier-linter-helpers",
-      "type": "static"
-    },
-    {
-      "source": "npm:eslint-plugin-prettier",
-      "target": "npm:synckit",
-      "type": "static"
-    },
-    {
       "source": "npm:eslint-scope@5.1.1",
       "target": "npm:esrecurse",
       "type": "static"

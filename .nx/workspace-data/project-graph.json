@@ -11109,6 +11109,11 @@
       },
       {
         "source": "nest-app",
+        "target": "npm:eslint-plugin-import",
+        "type": "static"
+      },
+      {
+        "source": "nest-app",
         "target": "npm:eslint-plugin-prettier",
         "type": "static"
       },
@@ -24834,5 +24839,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1755503306717
+  "computedAt": 1755503652342
 }
