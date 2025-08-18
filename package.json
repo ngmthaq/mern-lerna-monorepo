@@ -4,6 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lerna": "lerna",
+    "react-app:add": "lerna exec --scope react-app -- yarn add",
+    "react-app:remove": "lerna exec --scope react-app -- yarn remove",
+    "nest-app:add": "lerna exec --scope nest-app -- yarn add",
+    "nest-app:remove": "lerna exec --scope nest-app -- yarn remove"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.2.3"

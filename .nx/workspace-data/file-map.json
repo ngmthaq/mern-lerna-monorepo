@@ -4,115 +4,7 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": "nx.json",
-        "hash": "1921754567074770008"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "5323127761486393759"
-      },
-      {
-        "file": "package.json",
-        "hash": "12482515874705884974"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      }
-    ],
     "projectFileMap": {
-      "react-app": [
-        {
-          "file": "packages/react-app/.gitignore",
-          "hash": "13046175384202504187"
-        },
-        {
-          "file": "packages/react-app/.prettierrc",
-          "hash": "9555875142989992828"
-        },
-        {
-          "file": "packages/react-app/README.md",
-          "hash": "230519711145761115"
-        },
-        {
-          "file": "packages/react-app/eslint.config.js",
-          "hash": "14916169272593828862"
-        },
-        {
-          "file": "packages/react-app/index.html",
-          "hash": "4025202329384162906"
-        },
-        {
-          "file": "packages/react-app/package.json",
-          "hash": "6178021240013567204",
-          "deps": [
-            "npm:@eslint/js",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react-swc",
-            "npm:eslint",
-            "npm:eslint-plugin-react-hooks",
-            "npm:eslint-plugin-react-refresh",
-            "npm:globals",
-            "npm:prettier",
-            "npm:typescript@5.8.3",
-            "npm:typescript-eslint",
-            "npm:vite",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "packages/react-app/public/vite.svg",
-          "hash": "16046085400642193116"
-        },
-        {
-          "file": "packages/react-app/src/App.css",
-          "hash": "3739391659270974612"
-        },
-        {
-          "file": "packages/react-app/src/App.tsx",
-          "hash": "10864894279749440980"
-        },
-        {
-          "file": "packages/react-app/src/assets/react.svg",
-          "hash": "16069471864800376455"
-        },
-        {
-          "file": "packages/react-app/src/index.css",
-          "hash": "13504153635654440336"
-        },
-        {
-          "file": "packages/react-app/src/main.tsx",
-          "hash": "6927217941857638043"
-        },
-        {
-          "file": "packages/react-app/src/vite-env.d.ts",
-          "hash": "12946363841406869089"
-        },
-        {
-          "file": "packages/react-app/tsconfig.app.json",
-          "hash": "13835964686239530374"
-        },
-        {
-          "file": "packages/react-app/tsconfig.json",
-          "hash": "14663207100376192136"
-        },
-        {
-          "file": "packages/react-app/tsconfig.node.json",
-          "hash": "1668163967945684934"
-        },
-        {
-          "file": "packages/react-app/vite.config.ts",
-          "hash": "1482560115166664558"
-        }
-      ],
       "nest-app": [
         {
           "file": "packages/nest-app/.gitignore",
@@ -136,21 +28,37 @@
         },
         {
           "file": "packages/nest-app/package.json",
-          "hash": "16161638939474135474",
+          "hash": "5580626152671014095",
           "deps": [
             "npm:@eslint/eslintrc",
             "npm:@eslint/js",
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node@22.17.2",
+            "npm:@types/supertest",
             "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
             "npm:globals",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-loader",
+            "npm:ts-node",
             "npm:tsconfig-paths",
             "npm:typescript",
             "npm:typescript-eslint",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
             "npm:rxjs"
           ]
-        },
-        {
-          "file": "packages/nest-app/src/app.controller.spec.ts",
-          "hash": "2727664763654384995"
         },
         {
           "file": "packages/nest-app/src/app.controller.ts",
@@ -169,10 +77,6 @@
           "hash": "6783086878492621953"
         },
         {
-          "file": "packages/nest-app/test/app.e2e-spec.ts",
-          "hash": "7164584812487523395"
-        },
-        {
           "file": "packages/nest-app/test/jest-e2e.json",
           "hash": "7570273541430074424"
         },
@@ -185,57 +89,117 @@
           "hash": "4581096646024959595"
         }
       ],
-      "express-app": [
+      "react-app": [
         {
-          "file": "packages/express-app/.prettierrc",
-          "hash": "9555875142989992828"
+          "file": "packages/react-app/.gitignore",
+          "hash": "13046175384202504187"
         },
         {
-          "file": "packages/express-app/app.js",
-          "hash": "12647524115395815145"
+          "file": "packages/react-app/.prettierrc",
+          "hash": "15006443929579415440"
         },
         {
-          "file": "packages/express-app/bin/www",
-          "hash": "6000692175213593943"
+          "file": "packages/react-app/README.md",
+          "hash": "230519711145761115"
         },
         {
-          "file": "packages/express-app/package.json",
-          "hash": "11154865618084344029",
+          "file": "packages/react-app/eslint.config.js",
+          "hash": "11007553292228870613"
+        },
+        {
+          "file": "packages/react-app/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "packages/react-app/package.json",
+          "hash": "3901917367073477119",
           "deps": [
+            "npm:@eslint/js",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react-swc",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-prettier",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:globals",
             "npm:prettier",
-            "npm:cookie-parser",
-            "npm:debug@2.6.9",
-            "npm:express",
-            "npm:http-errors",
-            "npm:jade",
-            "npm:morgan"
+            "npm:typescript@5.8.3",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:react",
+            "npm:react-dom"
           ]
         },
         {
-          "file": "packages/express-app/public/stylesheets/style.css",
-          "hash": "9789996912336789300"
+          "file": "packages/react-app/public/vite.svg",
+          "hash": "16046085400642193116"
         },
         {
-          "file": "packages/express-app/routes/index.js",
-          "hash": "17153035773703016949"
+          "file": "packages/react-app/src/App.css",
+          "hash": "3739391659270974612"
         },
         {
-          "file": "packages/express-app/routes/users.js",
-          "hash": "1666107251648274156"
+          "file": "packages/react-app/src/App.tsx",
+          "hash": "5243734840673170216"
         },
         {
-          "file": "packages/express-app/views/error.jade",
-          "hash": "15797831673803591312"
+          "file": "packages/react-app/src/assets/react.svg",
+          "hash": "16069471864800376455"
         },
         {
-          "file": "packages/express-app/views/index.jade",
-          "hash": "10579950992995214212"
+          "file": "packages/react-app/src/index.css",
+          "hash": "13504153635654440336"
         },
         {
-          "file": "packages/express-app/views/layout.jade",
-          "hash": "16866781601313126645"
+          "file": "packages/react-app/src/main.tsx",
+          "hash": "14469162461304234757"
+        },
+        {
+          "file": "packages/react-app/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "packages/react-app/tsconfig.app.json",
+          "hash": "16444004777215756566"
+        },
+        {
+          "file": "packages/react-app/tsconfig.json",
+          "hash": "14663207100376192136"
+        },
+        {
+          "file": "packages/react-app/tsconfig.node.json",
+          "hash": "14956099351760451323"
+        },
+        {
+          "file": "packages/react-app/vite.config.ts",
+          "hash": "7059562795370333365"
         }
       ]
-    }
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "14246251903604600016"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "package.json",
+        "hash": "14869167024031972177"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "12370617608789313455"
+      }
+    ]
   }
 }

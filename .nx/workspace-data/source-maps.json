@@ -1,90 +1,4 @@
 {
-  "packages/express-app": {
-    "root": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "name": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "tags": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:private": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.0": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.description": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageName": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageExports": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageMain": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.executor": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.options": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.options.script": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata.scriptContent": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata.runCommand": [
-      "packages/express-app/package.json",
-      "nx/core/package-json"
-    ]
-  },
   "packages/nest-app": {
     "root": [
       "packages/nest-app/package.json",
@@ -134,30 +48,6 @@
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.6": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.8": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.9": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.10": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.11": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
@@ -170,103 +60,11 @@
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "metadata.js.packageExports": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageMain": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.js.isInPackageManagerWorkspaces": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
     "targets": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.build.metadata.runCommand": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.metadata.runCommand": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata.runCommand": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
@@ -298,34 +96,6 @@
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.start:debug": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:debug.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:debug.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:debug.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:debug.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:debug.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:debug.metadata.runCommand": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
     "targets.start:prod": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
@@ -351,6 +121,34 @@
       "nx/core/package-json"
     ],
     "targets.start:prod.metadata.runCommand": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/nest-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
@@ -382,143 +180,59 @@
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test": [
+    "targets.lint:fix": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test.executor": [
+    "targets.lint:fix.executor": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test.options": [
+    "targets.lint:fix.options": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test.metadata": [
+    "targets.lint:fix.metadata": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test.options.script": [
+    "targets.lint:fix.options.script": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test.metadata.scriptContent": [
+    "targets.lint:fix.metadata.scriptContent": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test.metadata.runCommand": [
+    "targets.lint:fix.metadata.runCommand": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch": [
+    "targets.format": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch.executor": [
+    "targets.format.executor": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch.options": [
+    "targets.format.options": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch.metadata": [
+    "targets.format.metadata": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch.options.script": [
+    "targets.format.options.script": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch.metadata.scriptContent": [
+    "targets.format.metadata.scriptContent": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.test:watch.metadata.runCommand": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:cov.metadata.runCommand": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:debug.metadata.runCommand": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e.executor": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e.options": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e.metadata": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e.options.script": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e.metadata.scriptContent": [
-      "packages/nest-app/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test:e2e.metadata.runCommand": [
+    "targets.format.metadata.runCommand": [
       "packages/nest-app/package.json",
       "nx/core/package-json"
     ]
@@ -564,7 +278,11 @@
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "metadata.description": [
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
@@ -576,14 +294,6 @@
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "metadata.js.packageExports": [
-      "packages/react-app/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageMain": [
-      "packages/react-app/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.js.isInPackageManagerWorkspaces": [
       "packages/react-app/package.json",
       "nx/core/package-json"
@@ -592,31 +302,59 @@
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev": [
+    "targets.start:dev": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.executor": [
+    "targets.start:dev.executor": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options": [
+    "targets.start:dev.options": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.metadata": [
+    "targets.start:dev.metadata": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.options.script": [
+    "targets.start:dev.options.script": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.metadata.scriptContent": [
+    "targets.start:dev.metadata.scriptContent": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.dev.metadata.runCommand": [
+    "targets.start:dev.metadata.runCommand": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
@@ -676,31 +414,59 @@
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview": [
+    "targets.lint:fix": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview.executor": [
+    "targets.lint:fix.executor": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview.options": [
+    "targets.lint:fix.options": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview.metadata": [
+    "targets.lint:fix.metadata": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview.options.script": [
+    "targets.lint:fix.options.script": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview.metadata.scriptContent": [
+    "targets.lint:fix.metadata.scriptContent": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ],
-    "targets.preview.metadata.runCommand": [
+    "targets.lint:fix.metadata.runCommand": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "packages/react-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
       "packages/react-app/package.json",
       "nx/core/package-json"
     ]
