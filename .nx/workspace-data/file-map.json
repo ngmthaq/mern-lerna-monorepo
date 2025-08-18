@@ -6,27 +6,113 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
         "file": "nx.json",
         "hash": "1921754567074770008"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "5323127761486393759"
       },
       {
         "file": "package.json",
         "hash": "12482515874705884974"
       },
       {
-        "file": "yarn.lock",
-        "hash": "9755779682288392291"
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
       }
     ],
     "projectFileMap": {
+      "react-app": [
+        {
+          "file": "packages/react-app/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "packages/react-app/.prettierrc",
+          "hash": "9555875142989992828"
+        },
+        {
+          "file": "packages/react-app/README.md",
+          "hash": "230519711145761115"
+        },
+        {
+          "file": "packages/react-app/eslint.config.js",
+          "hash": "14916169272593828862"
+        },
+        {
+          "file": "packages/react-app/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "packages/react-app/package.json",
+          "hash": "6178021240013567204",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react-swc",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:globals",
+            "npm:prettier",
+            "npm:typescript@5.8.3",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "packages/react-app/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "packages/react-app/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "packages/react-app/src/App.tsx",
+          "hash": "10864894279749440980"
+        },
+        {
+          "file": "packages/react-app/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "packages/react-app/src/index.css",
+          "hash": "13504153635654440336"
+        },
+        {
+          "file": "packages/react-app/src/main.tsx",
+          "hash": "6927217941857638043"
+        },
+        {
+          "file": "packages/react-app/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "packages/react-app/tsconfig.app.json",
+          "hash": "13835964686239530374"
+        },
+        {
+          "file": "packages/react-app/tsconfig.json",
+          "hash": "14663207100376192136"
+        },
+        {
+          "file": "packages/react-app/tsconfig.node.json",
+          "hash": "1668163967945684934"
+        },
+        {
+          "file": "packages/react-app/vite.config.ts",
+          "hash": "1482560115166664558"
+        }
+      ],
       "nest-app": [
         {
           "file": "packages/nest-app/.gitignore",
@@ -34,7 +120,7 @@
         },
         {
           "file": "packages/nest-app/.prettierrc",
-          "hash": "4808572120966128913"
+          "hash": "9555875142989992828"
         },
         {
           "file": "packages/nest-app/README.md",
@@ -42,7 +128,7 @@
         },
         {
           "file": "packages/nest-app/eslint.config.mjs",
-          "hash": "341460240617997069"
+          "hash": "8633572574851064604"
         },
         {
           "file": "packages/nest-app/nest-cli.json",
@@ -96,107 +182,46 @@
         },
         {
           "file": "packages/nest-app/tsconfig.json",
-          "hash": "13757859475919901779"
-        }
-      ],
-      "react-app": [
-        {
-          "file": "packages/react-app/.gitignore",
-          "hash": "13046175384202504187"
-        },
-        {
-          "file": "packages/react-app/README.md",
-          "hash": "230519711145761115"
-        },
-        {
-          "file": "packages/react-app/eslint.config.js",
-          "hash": "142212017292357276"
-        },
-        {
-          "file": "packages/react-app/index.html",
-          "hash": "4025202329384162906"
-        },
-        {
-          "file": "packages/react-app/package.json",
-          "hash": "7066895334314593957",
-          "deps": [
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react-app/public/vite.svg",
-          "hash": "16046085400642193116"
-        },
-        {
-          "file": "packages/react-app/src/App.css",
-          "hash": "3739391659270974612"
-        },
-        {
-          "file": "packages/react-app/src/App.tsx",
-          "hash": "9561001225065465909"
-        },
-        {
-          "file": "packages/react-app/src/assets/react.svg",
-          "hash": "16069471864800376455"
-        },
-        {
-          "file": "packages/react-app/src/index.css",
-          "hash": "13504153635654440336"
-        },
-        {
-          "file": "packages/react-app/src/main.tsx",
-          "hash": "11038211546439381838"
-        },
-        {
-          "file": "packages/react-app/src/vite-env.d.ts",
-          "hash": "12946363841406869089"
-        },
-        {
-          "file": "packages/react-app/tsconfig.app.json",
-          "hash": "17915403376949929233"
-        },
-        {
-          "file": "packages/react-app/tsconfig.json",
-          "hash": "2365188958523842680"
-        },
-        {
-          "file": "packages/react-app/tsconfig.node.json",
-          "hash": "12526670948656573966"
-        },
-        {
-          "file": "packages/react-app/vite.config.ts",
-          "hash": "6663526515856700769"
+          "hash": "4581096646024959595"
         }
       ],
       "express-app": [
         {
+          "file": "packages/express-app/.prettierrc",
+          "hash": "9555875142989992828"
+        },
+        {
           "file": "packages/express-app/app.js",
-          "hash": "7140470404141217634"
+          "hash": "12647524115395815145"
         },
         {
           "file": "packages/express-app/bin/www",
-          "hash": "13315582552387293696"
+          "hash": "6000692175213593943"
         },
         {
           "file": "packages/express-app/package.json",
-          "hash": "9064064873216657237",
+          "hash": "11154865618084344029",
           "deps": [
-            "npm:debug",
+            "npm:prettier",
+            "npm:cookie-parser",
+            "npm:debug@2.6.9",
             "npm:express",
-            "npm:http-errors"
+            "npm:http-errors",
+            "npm:jade",
+            "npm:morgan"
           ]
         },
         {
           "file": "packages/express-app/public/stylesheets/style.css",
-          "hash": "16008176012491926198"
+          "hash": "9789996912336789300"
         },
         {
           "file": "packages/express-app/routes/index.js",
-          "hash": "3690739613766628491"
+          "hash": "17153035773703016949"
         },
         {
           "file": "packages/express-app/routes/users.js",
-          "hash": "4398956935025720757"
+          "hash": "1666107251648274156"
         },
         {
           "file": "packages/express-app/views/error.jade",

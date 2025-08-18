@@ -67,7 +67,7 @@
               "script": "dev"
             },
             "metadata": {
-              "scriptContent": "vite",
+              "scriptContent": "vite --host",
               "runCommand": "yarn dev"
             },
             "configurations": {},
@@ -103,7 +103,7 @@
               "script": "preview"
             },
             "metadata": {
-              "scriptContent": "vite preview",
+              "scriptContent": "vite preview --host",
               "runCommand": "yarn preview"
             },
             "configurations": {},
@@ -10993,7 +10993,17 @@
     "express-app": [
       {
         "source": "express-app",
-        "target": "npm:debug",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "express-app",
+        "target": "npm:cookie-parser",
+        "type": "static"
+      },
+      {
+        "source": "express-app",
+        "target": "npm:debug@2.6.9",
         "type": "static"
       },
       {
@@ -11005,12 +11015,87 @@
         "source": "express-app",
         "target": "npm:http-errors",
         "type": "static"
+      },
+      {
+        "source": "express-app",
+        "target": "npm:jade",
+        "type": "static"
+      },
+      {
+        "source": "express-app",
+        "target": "npm:morgan",
+        "type": "static"
       }
     ],
     "react-app": [
       {
         "source": "react-app",
-        "target": "npm:typescript",
+        "target": "npm:@eslint/js",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@types/react",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@types/react-dom",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@vitejs/plugin-react-swc",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:eslint-plugin-react-hooks",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:eslint-plugin-react-refresh",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:globals",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:typescript@5.8.3",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:typescript-eslint",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:react-dom",
         "type": "static"
       }
     ],
@@ -23685,5 +23770,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1755435496890
+  "computedAt": 1755493133435
 }
