@@ -1,8 +1,12 @@
 import type { FC } from "react";
-import { ReactRouterProvider } from "./providers";
+import { ReactQueryProvider, ReactRouterProvider } from "./providers";
 
 const App: FC = () => {
-  return <ReactRouterProvider />;
+  return (
+    <ReactQueryProvider>
+      <ReactRouterProvider />
+    </ReactQueryProvider>
+  );
 };
 
 export default App;
