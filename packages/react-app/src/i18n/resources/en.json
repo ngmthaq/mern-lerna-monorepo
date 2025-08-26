@@ -1,0 +1,7 @@
+{
+  "translation": {
+    "welcome": "Welcome to the application!",
+    "changeLanguage": "Change Language",
+    "currentLanguage": "Current Language: {{lng}}"
+  }
+}

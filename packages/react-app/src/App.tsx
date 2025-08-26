@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import {
+  I18nProvider,
   JotaiProvider,
   ReactQueryProvider,
   ReactRouterProvider,
@@ -7,11 +8,13 @@ import {
 
 const App: FC = () => {
   return (
-    <JotaiProvider>
-      <ReactQueryProvider>
-        <ReactRouterProvider />
-      </ReactQueryProvider>
-    </JotaiProvider>
+    <I18nProvider>
+      <JotaiProvider>
+        <ReactQueryProvider>
+          <ReactRouterProvider />
+        </ReactQueryProvider>
+      </JotaiProvider>
+    </I18nProvider>
   );
 };
 

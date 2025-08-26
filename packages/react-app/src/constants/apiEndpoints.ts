@@ -1,7 +1,7 @@
 /**
  * Api Endpoints\
  * Convention: HTTP Method + Api Name\
- * Example: GET_USERS, POST_LOGIN, PUT_UPDATE_USER, DELETE_USER
+ * Example: getUsers, postLogin, putUpdateUser, deleteUser
  */
 export const API_ENDPOINTS = {
   // GET

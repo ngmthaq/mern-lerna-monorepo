@@ -1,0 +1,7 @@
+{
+  "translation": {
+    "welcome": "Chào mừng đến với ứng dụng!",
+    "changeLanguage": "Thay đổi ngôn ngữ",
+    "currentLanguage": "Ngôn ngữ hiện tại: {{lng}}"
+  }
+}

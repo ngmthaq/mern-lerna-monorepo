@@ -1,8 +1,8 @@
-import "jotai-devtools/styles.css";
-import "./JotaiProvider.css";
 import type { FC, PropsWithChildren } from "react";
 import { createStore, Provider } from "jotai";
 import { DevTools } from "jotai-devtools";
+import "jotai-devtools/styles.css";
+import "./JotaiProvider.css";
 
 const store = createStore();
 
