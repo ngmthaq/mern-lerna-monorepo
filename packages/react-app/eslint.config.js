@@ -29,7 +29,6 @@ export default tseslint.config([
       },
     },
     rules: {
-      "no-unused-vars": ["warn", {}],
       "import/no-dynamic-require": ["warn", {}],
       "import/no-nodejs-modules": ["warn", {}],
       "import/no-unresolved": ["off", {}],
