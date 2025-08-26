@@ -1,0 +1,48 @@
+.reactQueryProviderDevtoolButton {
+  position: fixed;
+  bottom: 48px;
+  right: 10px;
+  background-color: #191c24;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ea9443;
+  border: 1px solid #ea9443;
+  z-index: 9999;
+}
+
+.closeReactQueryProviderDevtoolButton {
+  background-color: #191c24;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ea9443;
+  position: absolute;
+  right: 8px;
+  top: -26px;
+  border-radius: 4px 4px 0 0;
+}
+
+.reactQueryDevtoolsPanelWrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  z-index: 99999;
+}
+
+.reactQueryDevtoolsPanelWrapperClosed {
+  bottom: -1000px;
+}

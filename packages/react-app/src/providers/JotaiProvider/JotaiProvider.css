@@ -1,0 +1,16 @@
+.internal-jotai-devtools-shell {
+  border-radius: 0;
+  bottom: 0;
+  left: 0;
+  transform: unset;
+  width: 100%;
+  z-index: 100000;
+}
+
+.jotai-devtools-trigger-button {
+  border-radius: 8px;
+  width: 48px !important;
+  height: 48px !important;
+  left: 8px !important;
+  bottom: 8px !important;
+}

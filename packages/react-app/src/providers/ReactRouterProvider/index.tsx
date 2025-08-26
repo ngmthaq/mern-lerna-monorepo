@@ -12,7 +12,7 @@ const ReactRouterProvider: FC = () => {
         defaultErrorComponent={AppError}
         defaultNotFoundComponent={AppNotFound}
       />
-      <TanStackRouterDevtools router={router} />
+      <TanStackRouterDevtools router={router} position="bottom-right" />
     </Fragment>
   );
 };
