@@ -12,7 +12,7 @@ A monorepo setup for a full-stack MERN (MongoDB, Express, React, Node.js) applic
 
 ## Project Structure
 
-```
+```tree
 mern-monorepo/
 ├── backend/      # Express API
 ├── frontend/     # React app
@@ -31,27 +31,31 @@ mern-monorepo/
 ### Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/mern-monorepo.git
-    cd mern-monorepo
-    ```
+
+   ```bash
+   git clone https://github.com/your-username/mern-monorepo.git
+   cd mern-monorepo
+   ```
 
 2. Install dependencies for both frontend and backend:
-    ```bash
-    npm install
-    cd backend && npm install
-    cd ../frontend && npm install
-    ```
+
+   ```bash
+   npm install
+   cd backend && npm install
+   cd ../frontend && npm install
+   ```
 
 ### Running the App
 
 - **Backend**:
+
   ```bash
   cd backend
   npm run dev
   ```
 
 - **Frontend**:
+
   ```bash
   cd frontend
   npm start
