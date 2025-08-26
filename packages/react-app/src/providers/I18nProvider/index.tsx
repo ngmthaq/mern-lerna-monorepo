@@ -22,6 +22,7 @@ const I18nProvider: FC<PropsWithChildren> = ({ children }) => {
       const localStorageLocale = localStorage.getItem(key);
       if (localStorageLocale !== lng) {
         localStorage.setItem(LOCAL_STORAGE_KEYS.locale, lng);
+        document.documentElement.lang = lng;
       }
     };
 
