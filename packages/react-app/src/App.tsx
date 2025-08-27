@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import {
+  AgGridProvider,
   I18nProvider,
   JotaiProvider,
   MuiThemeProvider,
@@ -10,13 +11,15 @@ import {
 const App: FC = () => {
   return (
     <I18nProvider>
-      <JotaiProvider>
-        <MuiThemeProvider>
-          <ReactQueryProvider>
-            <ReactRouterProvider />
-          </ReactQueryProvider>
-        </MuiThemeProvider>
-      </JotaiProvider>
+      <MuiThemeProvider>
+        <AgGridProvider>
+          <JotaiProvider>
+            <ReactQueryProvider>
+              <ReactRouterProvider />
+            </ReactQueryProvider>
+          </JotaiProvider>
+        </AgGridProvider>
+      </MuiThemeProvider>
     </I18nProvider>
   );
 };

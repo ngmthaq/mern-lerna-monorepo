@@ -1,6 +1,6 @@
 import type { FC, PropsWithChildren } from "react";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import theme from "@/theme";
+import { muiTheme } from "@/theme";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
@@ -11,8 +11,8 @@ const MuiThemeProvider: FC<PropsWithChildren> = ({ children }) => {
     <ThemeProvider
       noSsr
       disableTransitionOnChange
-      defaultMode="system"
-      theme={theme}
+      defaultMode="light"
+      theme={muiTheme}
     >
       <CssBaseline />
       {children}

@@ -1,6 +1,8 @@
 import { Box, Button, Typography, useColorScheme } from "@mui/material";
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { AppAgGrid } from "@/components";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -9,6 +11,19 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   const { t, i18n } = useTranslation();
   const { mode, setMode } = useColorScheme();
+
+  const [rowData] = useState([
+    { make: "Tesla", model: "Model Y", price: 64950, electric: true },
+    { make: "Ford", model: "F-Series", price: 33850, electric: false },
+    { make: "Toyota", model: "Corolla", price: 29600, electric: false },
+  ]);
+
+  const [colDefs] = useState([
+    { field: "make" },
+    { field: "model" },
+    { field: "price" },
+    { field: "electric" },
+  ]);
 
   const handleChangeLanguage = () => {
     if (i18n.language === "en") i18n.changeLanguage("vi");
@@ -40,6 +55,9 @@ function RouteComponent() {
         >
           {t("changeTheme")}
         </Button>
+      </Box>
+      <Box sx={{ height: 500 }}>
+        <AppAgGrid rowData={rowData} columnDefs={colDefs} />
       </Box>
     </Box>
   );
