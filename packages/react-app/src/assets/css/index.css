@@ -1,0 +1,3 @@
+html.dark .plot-container {
+  filter: invert(90%) hue-rotate(180deg);
+}
