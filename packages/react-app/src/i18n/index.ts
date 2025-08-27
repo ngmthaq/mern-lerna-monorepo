@@ -2,8 +2,11 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import { LOCALE_CONF } from "@/constants";
+import { dayjs } from "@/utils";
 import en from "./resources/en.json";
 import vi from "./resources/vi.json";
+import "dayjs/locale/en";
+import "dayjs/locale/vi";
 
 i18n.use(initReactI18next).init({
   resources: { en, vi },
@@ -13,3 +16,5 @@ i18n.use(initReactI18next).init({
   debug: import.meta.env.DEV,
   interpolation: { escapeValue: false },
 });
+
+dayjs.locale(LOCALE_CONF.fallbackLng);

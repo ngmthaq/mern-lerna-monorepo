@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Plot from "react-plotly.js";
 import { AppAgGrid } from "@/components";
+import { DAYJS_FORMATS } from "@/constants";
+import { dayjs } from "@/utils";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -38,6 +40,7 @@ function RouteComponent() {
 
   return (
     <Box>
+      <Typography>{dayjs().format(DAYJS_FORMATS.fullDateTime)}</Typography>
       <Typography mb={1}>{t("welcome")}</Typography>
       <Box mb={1}>
         <Button

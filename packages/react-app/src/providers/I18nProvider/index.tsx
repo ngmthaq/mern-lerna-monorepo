@@ -1,6 +1,7 @@
 import { useEffect, type FC, type PropsWithChildren } from "react";
 import { useTranslation } from "react-i18next";
 import { LOCAL_STORAGE_KEYS, LOCALE_CONF } from "@/constants";
+import { dayjs } from "@/utils";
 import "@/i18n";
 
 const I18nProvider: FC<PropsWithChildren> = ({ children }) => {
@@ -14,16 +15,17 @@ const I18nProvider: FC<PropsWithChildren> = ({ children }) => {
     if (i18n.language === language) return;
     i18n.changeLanguage(language);
     document.documentElement.lang = language;
+    dayjs.locale(language);
   }, [i18n]);
 
   useEffect(() => {
     const handleLanguageChanged = (lng: string) => {
       const key = LOCAL_STORAGE_KEYS.locale;
       const localStorageLocale = localStorage.getItem(key);
-      if (localStorageLocale !== lng) {
-        localStorage.setItem(LOCAL_STORAGE_KEYS.locale, lng);
-        document.documentElement.lang = lng;
-      }
+      if (localStorageLocale === lng) return;
+      localStorage.setItem(LOCAL_STORAGE_KEYS.locale, lng);
+      document.documentElement.lang = lng;
+      dayjs.locale(lng);
     };
 
     i18n.on("languageChanged", handleLanguageChanged);
