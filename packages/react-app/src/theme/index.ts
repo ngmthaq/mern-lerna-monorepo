@@ -1,2 +1,2 @@
-export * from "./mui-theme";
-export * from "./ag-grid-theme";
+export * from "./muiTheme";
+export * from "./agGridTheme";
