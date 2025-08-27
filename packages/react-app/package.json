@@ -23,8 +23,11 @@
     "@tanstack/react-router": "^1.131.27",
     "ag-grid-community": "^34.1.2",
     "ag-grid-react": "^34.1.2",
+    "axios": "^1.11.0",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.14",
+    "formik": "^2.4.6",
+    "humps": "^2.0.1",
     "i18next": "^25.4.2",
     "jotai": "^2.13.1",
     "plotly.js": "^3.1.0",
@@ -32,7 +35,9 @@
     "react-dom": "^19.1.1",
     "react-i18next": "^15.7.2",
     "react-plotly.js": "^2.6.0",
-    "styled-components": "^6.1.19"
+    "styled-components": "^6.1.19",
+    "uuid": "^11.1.0",
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
@@ -40,6 +45,7 @@
     "@tanstack/react-query-devtools": "^5.85.5",
     "@tanstack/react-router-devtools": "^1.131.27",
     "@tanstack/router-plugin": "^1.131.27",
+    "@types/humps": "^2.0.6",
     "@types/plotly.js": "^3.0.3",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
