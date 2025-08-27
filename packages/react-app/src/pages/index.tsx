@@ -2,6 +2,7 @@ import { Box, Button, Typography, useColorScheme } from "@mui/material";
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import Plot from "react-plotly.js";
 import { AppAgGrid } from "@/components";
 
 export const Route = createFileRoute("/")({
@@ -58,6 +59,21 @@ function RouteComponent() {
       </Box>
       <Box sx={{ height: 500 }}>
         <AppAgGrid rowData={rowData} columnDefs={colDefs} />
+      </Box>
+      <Box>
+        <Plot
+          data={[
+            {
+              x: [1, 2, 3],
+              y: [2, 6, 3],
+              type: "scatter",
+              mode: "lines+markers",
+              marker: { color: "red" },
+            },
+            { type: "bar", x: [1, 2, 3], y: [2, 5, 3] },
+          ]}
+          layout={{ width: 320, height: 240, title: { text: "A Fancy Plot" } }}
+        />
       </Box>
     </Box>
   );
