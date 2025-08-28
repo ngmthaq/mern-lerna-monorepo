@@ -49,4 +49,4 @@ dayjs.extend(utc);
 dayjs.extend(weekOfYear);
 dayjs.extend(weekday);
 
-export default dayjs;
+export const date = dayjs;

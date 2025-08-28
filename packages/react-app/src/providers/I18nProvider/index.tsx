@@ -2,7 +2,7 @@ import { useEffect, type FC, type PropsWithChildren } from "react";
 import { useTranslation } from "react-i18next";
 import * as timeago from "timeago.js";
 import { LOCAL_STORAGE_KEYS, LOCALE_CONF } from "@/constants";
-import { dayjs } from "@/utils";
+import { date } from "@/utils";
 import "@/i18n";
 
 const I18nProvider: FC<PropsWithChildren> = ({ children }) => {
@@ -12,7 +12,7 @@ const I18nProvider: FC<PropsWithChildren> = ({ children }) => {
     type Key = keyof typeof LOCALE_CONF.timeAgoLocaleMap;
     timeago.register(lng, LOCALE_CONF.timeAgoLocaleMap[lng as Key]);
     document.documentElement.lang = lng;
-    dayjs.locale(lng);
+    date.locale(lng);
   };
 
   useEffect(() => {
