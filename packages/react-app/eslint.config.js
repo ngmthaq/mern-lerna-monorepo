@@ -7,6 +7,7 @@ import { globalIgnores } from "eslint/config";
 import eslintConfigPrettier from "eslint-config-prettier/flat";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import importPlugin from "eslint-plugin-import";
+import pluginQuery from "@tanstack/eslint-plugin-query";
 
 export default tseslint.config([
   globalIgnores(["dist"]),
@@ -62,6 +63,7 @@ export default tseslint.config([
       ],
     },
   },
+  ...pluginQuery.configs["flat/recommended"],
   eslintConfigPrettier,
   eslintPluginPrettierRecommended,
 ]);
