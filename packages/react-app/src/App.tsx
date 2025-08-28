@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import {
   AgGridProvider,
+  HelmetProvider,
   I18nProvider,
   JotaiProvider,
   MuiThemeProvider,
@@ -13,11 +14,13 @@ const App: FC = () => {
     <I18nProvider>
       <MuiThemeProvider>
         <AgGridProvider>
-          <JotaiProvider>
-            <ReactQueryProvider>
-              <ReactRouterProvider />
-            </ReactQueryProvider>
-          </JotaiProvider>
+          <HelmetProvider>
+            <JotaiProvider>
+              <ReactQueryProvider>
+                <ReactRouterProvider />
+              </ReactQueryProvider>
+            </JotaiProvider>
+          </HelmetProvider>
         </AgGridProvider>
       </MuiThemeProvider>
     </I18nProvider>
