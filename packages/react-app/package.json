@@ -12,6 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@ag-grid-community/locale": "^34.1.2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@fontsource/roboto": "^5.2.6",
@@ -36,6 +37,8 @@
     "react-i18next": "^15.7.2",
     "react-plotly.js": "^2.6.0",
     "styled-components": "^6.1.19",
+    "timeago-react": "^3.0.7",
+    "timeago.js": "^4.0.2",
     "uuid": "^11.1.0",
     "yup": "^1.7.0"
   },

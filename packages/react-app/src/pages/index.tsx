@@ -3,7 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Plot from "react-plotly.js";
-import { AppAgGrid } from "@/components";
+import { AppAgGrid, AppTimeAgo } from "@/components";
 import { DAYJS_FORMATS } from "@/constants";
 import { dayjs } from "@/utils";
 
@@ -40,6 +40,9 @@ function RouteComponent() {
 
   return (
     <Box>
+      <Typography>
+        <AppTimeAgo datetime={dayjs().toString()} />
+      </Typography>
       <Typography>{dayjs().format(DAYJS_FORMATS.fullDateTime)}</Typography>
       <Typography mb={1}>{t("welcome")}</Typography>
       <Box mb={1}>

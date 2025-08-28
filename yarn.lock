@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.4.tgz#2856c55443d3d461693f32d2b96fb6ea92e1ffa9"
   integrity sha512-Elp+iwUx5rN5+Y8xLt5/GRoG20WGoDCQ/1Fb+1LiGtvwbDavuSk0jhD/eZdckHAuzcDzccnkv+rEjyWfRx18gg==
 
+"@ag-grid-community/locale@^34.1.2":
+  version "34.1.2"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/locale/-/locale-34.1.2.tgz#b6f69184a3882ec9e417d06318ff88593e6a7afd"
+  integrity sha512-oN4ApgkKNDDOcVsq1B54LR5g7b/4tnSg5UFsWat/hJh9JOaWwMGhgrfOO4cmcTIUlbjHdyoemLn+k+1fr6go4Q==
+
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.3.0.tgz#ed441b6fa600072520ce18b43d2c8cc8caecc7f4"
@@ -11293,6 +11298,18 @@ through@2, through@2.3.8, "through@>=2.2.7 <3", through@^2.3.6:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
+
+timeago-react@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/timeago-react/-/timeago-react-3.0.7.tgz#5c6c79e928b8896a3bfb491dfc3fd3d461d17eca"
+  integrity sha512-5LSQuq+mzfEpMHkJQgMWnOs27dGh25aUQhffQpAW6q431vVVmHP194KYsM4bhzli0XfohUgN8+r3Pq6GVprN4A==
+  dependencies:
+    timeago.js "^4.0.0"
+
+timeago.js@^4.0.0, timeago.js@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/timeago.js/-/timeago.js-4.0.2.tgz#724e8c8833e3490676c7bb0a75f5daf20e558028"
+  integrity sha512-a7wPxPdVlQL7lqvitHGGRsofhdwtkoSXPGATFuSOA2i1ZNQEPLrGnj68vOp2sOJTCFAQVXPeNMX/GctBaO9L2w==
 
 tiny-case@^1.0.3:
   version "1.0.3"
