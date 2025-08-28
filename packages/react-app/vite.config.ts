@@ -19,4 +19,17 @@ export default defineConfig({
       "@": "/src",
     },
   },
+  build: {
+    minify: true,
+    sourcemap: false,
+    cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        manualChunks: (id) => {
+          if (!id.includes("node_modules")) return null;
+          return "node_modules";
+        },
+      },
+    },
+  },
 });
