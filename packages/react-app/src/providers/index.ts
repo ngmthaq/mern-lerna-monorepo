@@ -1,4 +1,3 @@
-export { default as ReactRouterProvider } from "./ReactRouterProvider";
 export { default as ReactQueryProvider } from "./ReactQueryProvider";
 export { default as JotaiProvider } from "./JotaiProvider";
 export { default as I18nProvider } from "./I18nProvider";

@@ -1,4 +1,6 @@
 import type { FC } from "react";
+import { RouterProvider } from "@tanstack/react-router";
+import { AppError, AppNotFound } from "./components";
 import {
   AgGridProvider,
   HelmetProvider,
@@ -6,8 +8,8 @@ import {
   JotaiProvider,
   MuiThemeProvider,
   ReactQueryProvider,
-  ReactRouterProvider,
 } from "./providers";
+import router from "./router";
 
 const App: FC = () => {
   return (
@@ -17,7 +19,11 @@ const App: FC = () => {
           <HelmetProvider>
             <JotaiProvider>
               <ReactQueryProvider>
-                <ReactRouterProvider />
+                <RouterProvider
+                  router={router}
+                  defaultErrorComponent={AppError}
+                  defaultNotFoundComponent={AppNotFound}
+                />
               </ReactQueryProvider>
             </JotaiProvider>
           </HelmetProvider>

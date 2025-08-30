@@ -54,6 +54,11 @@ export default tseslint.config([
           },
           pathGroups: [
             {
+              pattern: "@/types/**",
+              group: "type",
+              position: "after",
+            },
+            {
               pattern: "@/**",
               group: "internal",
               position: "after",

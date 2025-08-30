@@ -2,8 +2,8 @@ import { useEffect, useState, type FC, type PropsWithChildren } from "react";
 import { HelmetContext, type HelmetContextType } from "@/contexts";
 
 const HelmetProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [title, setTitle] = useState<string>("");
-  const [icon, setIcon] = useState<string>("");
+  const [title, setTitle] = useState<string>(import.meta.env.VITE_APP_TITLE);
+  const [icon, setIcon] = useState<string>(import.meta.env.VITE_APP_ICON);
 
   useEffect(() => {
     if (title) document.title = title;

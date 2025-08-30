@@ -3,3 +3,4 @@ export * from "./storageKeys";
 export * from "./localeConfigs";
 export * from "./customEvents";
 export * from "./dayjsFormats";
+export * from "./toolpadNavigation";
