@@ -1,8 +1,0 @@
-{
-  "translation": {
-    "welcome": "Chào mừng đến với ứng dụng!",
-    "changeLanguage": "Thay đổi ngôn ngữ",
-    "changeTheme": "Thay đổi theme",
-    "currentLanguage": "Ngôn ngữ hiện tại: {{lng}}"
-  }
-}

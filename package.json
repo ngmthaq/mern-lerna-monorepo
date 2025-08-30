@@ -6,14 +6,14 @@
   ],
   "scripts": {
     "lerna": "lerna",
-    "react-app": "lerna exec --scope react-app -- ",
-    "react-app:run": "lerna run --scope react-app",
     "react-app:add": "lerna exec --scope react-app -- yarn add",
+    "react-app:exec": "lerna exec --scope react-app -- ",
     "react-app:remove": "lerna exec --scope react-app -- yarn remove",
-    "nest-app": "lerna exec --scope nest-app -- ",
-    "nest-app:run": "lerna run --scope nest-app",
+    "react-app:run": "lerna run --scope react-app",
     "nest-app:add": "lerna exec --scope nest-app -- yarn add",
-    "nest-app:remove": "lerna exec --scope nest-app -- yarn remove"
+    "nest-app:exec": "lerna exec --scope nest-app -- ",
+    "nest-app:remove": "lerna exec --scope nest-app -- yarn remove",
+    "nest-app:run": "lerna run --scope nest-app"
   },
   "dependencies": {},
   "devDependencies": {

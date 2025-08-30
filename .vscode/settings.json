@@ -1,3 +1,15 @@
 {
-    "nxConsole.generateAiAgentRules": true
+    "nxConsole.generateAiAgentRules": true,
+    "cSpell.words": [
+        "jotai",
+        "Lngs",
+        "njsproj",
+        "ntvs",
+        "plotly",
+        "rgba",
+        "tanstack",
+        "timeago",
+        "TOOLPAD",
+        "VITE"
+    ]
 }

@@ -1,8 +1,8 @@
 {
   "translation": {
-    "welcome": "Welcome to the application!",
-    "changeLanguage": "Change Language",
-    "changeTheme": "Change Theme",
-    "currentLanguage": "Current Language: {{lng}}"
+    "toolpad": "Toolpad",
+    "sidebar": {
+      "dashboard": "Dashboard"
+    }
   }
 }
