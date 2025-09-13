@@ -1,17 +1,19 @@
 // @ts-check
 import eslint from "@eslint/js";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
+import importPlugin from "eslint-plugin-import";
 import globals from "globals";
 import tseslint from "typescript-eslint";
-import eslintConfigPrettier from "eslint-config-prettier/flat";
-import importPlugin from "eslint-plugin-import";
 
 export default tseslint.config(
   {
-    ignores: ["eslint.config.mjs"],
+    ignores: ["eslint.config.mjs", "public"],
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
+  eslintPluginPrettierRecommended,
+  importPlugin.flatConfigs.recommended,
+  importPlugin.flatConfigs.typescript,
   {
     languageOptions: {
       globals: {
@@ -22,50 +24,36 @@ export default tseslint.config(
       parserOptions: {
         projectService: true,
         tsconfigRootDir: import.meta.dirname,
+        project: ["./tsconfig.json", "./tsconfig.build.json"],
       },
     },
-    extends: [
-      importPlugin.flatConfigs.recommended,
-      importPlugin.flatConfigs.typescript,
-    ],
   },
   {
     rules: {
-      "no-unused-vars": ["warn", {}],
-      "@typescript-eslint/no-explicit-any": ["warn", {}],
-      "@typescript-eslint/no-floating-promises": ["warn", {}],
-      "@typescript-eslint/no-unsafe-argument": ["warn", {}],
-      "import/no-unresolved": ["warn", {}],
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-floating-promises": "warn",
+      "@typescript-eslint/no-unsafe-argument": "warn",
       "import/order": [
         "error",
         {
-          "newlines-between": "always",
           groups: [
-            "type",
             "builtin",
             "external",
             "internal",
             "parent",
             "sibling",
             "index",
-            "object",
-            "unknown",
           ],
+          "newlines-between": "never",
           alphabetize: {
             order: "asc",
             caseInsensitive: true,
           },
-          pathGroups: [
-            {
-              pattern: "@/**",
-              group: "internal",
-              position: "after",
-            },
-          ],
         },
       ],
+      "import/no-unresolved": "off",
+      "import/no-duplicates": "off",
+      "import/no-unused-modules": "off",
     },
   },
-  eslintConfigPrettier,
-  eslintPluginPrettierRecommended,
 );
