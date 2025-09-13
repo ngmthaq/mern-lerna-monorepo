@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "project-nlp-devtools",
   "private": true,
   "workspaces": [
     "packages/*"

@@ -68,3 +68,17 @@ Pull requests are welcome. For major changes, please open an issue first.
 ## License
 
 [MIT](LICENSE)
+
+## Conda
+
+Export conda environment:
+
+```sh
+conda env export > environment.yml
+```
+
+Activate conda environment:
+
+```sh
+conda env create --file environment.yml
+```
